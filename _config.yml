@@ -1,9 +1,9 @@
 # Site settings
 title: def jef
-email: your-email@domain.com
-description: > puts "#{sloppy_thoughts}"
+email: ruane [dot] jb [at] gmail [dot] com
+description: puts "#{sloppy_thoughts}"
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "https://jbrr.github.io" # the base hostname & protocol for your site
 twitter_username: jefbrr
 github_username:  jbrr
 
