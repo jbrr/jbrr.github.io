@@ -1,5 +1,6 @@
 # Site settings
 title: def jef
+email: ruane.jb@gmail.com
 description: puts "#{sloppy_thoughts}"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://jbrr.github.io" # the base hostname & protocol for your site
