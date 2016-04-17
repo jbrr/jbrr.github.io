@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paperclip, S3, and Heroku"
+title: "Paperclip, S3, and Rails 4"
 date: 2016-04-13 12:00:00
 categories: tutorials
 ---
