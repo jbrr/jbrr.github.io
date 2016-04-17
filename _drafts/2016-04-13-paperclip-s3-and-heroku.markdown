@@ -4,7 +4,7 @@ title: "Paperclip, S3, and Heroku"
 date: 2016-04-13 12:00:00
 categories: tutorials
 ---
-Configuring Paperclip and S3 was more of a hassle a couple months ago, but things have gotten easier since the latest versions of the Paperclip gem are now compatible with the `aws-sdk` gem above versions 2.0. Nevertheless, I'll go through the steps of getting it all set up on Rails 4.
+Configuring Paperclip and S3 was more of a hassle a couple months ago, but things have gotten easier since the latest versions of the Paperclip gem are now compatible with the `aws-sdk` gem above versions 2.0. Nevertheless, I'll go through the steps of getting it all set up on Rails 4. The project I was working through while putting this tutorial together is [here](https://github.com/jbrr/photo-portfolio), to see all this in action.
 
 First, we're going to need a couple of gems.
 
@@ -82,7 +82,7 @@ class Photograph < ActiveRecord::Base
                     styles: { large: "800x800",
                               medium: "300x300>",
                               thumb: "100x100>" }
-  <!-- validates_attachment_content_type :image, content_type: /\Aimage\/.*\Z/ -->
+  validates_attachment_content_type :image, content_type: /\Aimage\/.*\Z/
 end
 
 {% endhighlight %}
@@ -93,8 +93,66 @@ Ok, next, let's take a look at our form for uploading, in `app/views/photographs
 <div class="container">
   <%= render partial: "layouts/flash" %>
   <%= form_for @photograph, url: upload_path, html: { multipart: true } do |f| %>
+    <%= f.label :title %>
+    <%= f.text_field :title %>
     <%= f.file_field :image %>
     <%= f.submit "Submit" %>
   <% end %>
 </div>
+{% endhighlight %}
+
+Ok, great, let's wire up our `photographs_controller.rb`:
+
+{% highlight ruby %}
+class PhotographsController < ApplicationController
+  def new
+    @photograph = Photograph.new
+  end
+
+  def create
+    photograph = Photograph.create(photograph_params)
+  end
+
+  private
+
+  def photograph_params
+    params.require(:photograph).permit(:image, :title)
+  end
+end
+{% endhighlight %}
+
+Then, lastly, in `routes.rb`:
+
+{% highlight ruby %}
+Rails.application.routes.draw do
+  resources :photographs, only: [:new, :create]
+end
+{% endhighlight %}
+
+Simple enough. When it comes time to implement our show view, we'll do that with an `image_tag`:
+
+{% highlight ruby %}
+  <%= image_tag @photograph.image.url %>
+{% endhighlight %}
+
+At this point, we should be able to upload files locally. So, next step is to wire up S3. So, we need to tell the photograph model to use S3 for storage instead of saving locally. So, we'll go ahead and make some changes to `photograph.rb`:
+
+{% highlight ruby %}
+class Photograph < ActiveRecord::Base
+  belongs_to :user
+  has_attached_file :image,
+                    storage: :s3,
+                    s3_region: ENV["AWS_REGION"],
+                    s3_credentials: Proc.new{ |a| a.instance.s3_credentials},
+                    styles: { large: "800x800",
+                              medium: "300x300>",
+                              thumb: "100x100>" }
+  validates_attachment_content_type :image, content_type: /\Aimage\/.*\Z/
+
+  def s3_credentials
+    {bucket: ENV["S3Bucket"],
+     access_key_id: ENV["AWSAccessKeyId"],
+     secret_access_key: ENV["AWSSecretKey"]}
+   end
+end
 {% endhighlight %}
