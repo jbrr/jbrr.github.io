@@ -9,7 +9,7 @@ Configuring Paperclip and S3 was more of a hassle a couple months ago, but thing
 First, we're going to need a couple of gems.
 
 * `figaro` - We realllly don't want our AWS access keys uploaded to GitHub. Amazon is pretty good about alerting you if they do get on there somehow, but it's not worth the risk of somebody finding them and racking up huge bills for you. This is certainly possible without using Figaro, but let's just keep things simple.
-* `paperclip` - As of the time of this writing, it may be useful to use the master branch as opposed to the rubygems.org version. So, we'll go ahead and use: gem
+* `paperclip` - As of the time of this writing, it may be useful to use the master branch as opposed to the rubygems.org version. So, we'll go ahead and use:
 {% highlight ruby %}
 gem "paperclip", git: "git://github.com/thoughtbot/paperclip.git"
 {% endhighlight %}
