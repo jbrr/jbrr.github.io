@@ -139,7 +139,6 @@ At this point, we should be able to upload files locally. So, next step is to wi
 
 {% highlight ruby %}
 class Photograph < ActiveRecord::Base
-  belongs_to :user
   has_attached_file :image,
                     storage: :s3,
                     s3_region: ENV["AWS_REGION"],
@@ -156,3 +155,49 @@ class Photograph < ActiveRecord::Base
    end
 end
 {% endhighlight %}
+
+One thing to keep in mind here is that your AWS region is a different argument than the credentials. Ok, at this point, we should be uploading to S3! You can go check your AWS dashboard, and look in your bucket to see if it's working.
+
+What about testing? You've been testing, right? I've been using Minitest, and I won't walk through all of it. The model tests should be pretty straight forward. There are a couple tips for the controller tests, though.
+
+One thing that proved to be helpful for me is `fixture_file_upload`. So, naturally, my test image is a photo of Guy Fieri looking forlorn:
+
+![Old Guy Fieri]({{ site.url }}/assets/fieri.jpg)
+
+So, I put that image in `test/fixtures`, and then in `photograph_controller_test.rb`:
+
+{% highlight ruby %}
+test "should upload photograph" do
+    photo = fixture_file_upload("fieri.jpg", "image/jpeg")
+
+    assert_difference("Photograph.count") do
+      post(:create, {photograph: {image: photo,
+                                  title: "Flavortown"}})
+    end
+  end
+{% endhighlight %}
+
+This is great, because now you're not uploading a file over and over every time you run a test. You're just making sure your create action is accepting the params that you want it to accept. You can do something similar to test the sad path. For this test, I have some redirect logic in my controller that I haven't explicitly walked through, and I created `test.txt` in my fixtures folder:
+
+{% highlight ruby %}
+test "should redirect to upload path if file is not image" do
+    file = fixture_file_upload("test.txt", "text/plain")
+
+    assert_no_difference("Photograph.count") do
+      post(:create, {photograph: {image: file,
+                                  title: "Sad Path"}})
+    end
+
+    assert_redirected_to upload_path
+  end
+{% endhighlight %}
+
+Great. But, AWS isn't going to be happy with this, right? In `application.yml`, we put in some dummy access keys for the test environment, so it's not going to accept those credentials. To get around this, we can stub out the AWS response. For this, we'll go into `test_helper.rb`, and make some changes to `ActionController::TestCase`:
+
+{% highlight ruby %}
+class ActionController::TestCase
+  Aws.config.update({stub_responses: true})
+end
+{% endhighlight %}
+
+That should do it. We're now using Paperclip to upload files to S3, and we've got some of the tests figured out. If I missed anything, or if anyone has any suggestions, please let me know, thanks for reading!
