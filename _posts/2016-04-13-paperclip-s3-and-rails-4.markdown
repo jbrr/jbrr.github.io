@@ -4,6 +4,9 @@ title: "Paperclip, S3, and Rails 4"
 date: 2016-04-13 12:00:00
 categories: tutorials
 ---
+
+### Warning: This was written before a serious vulnerability was found in ImageMagick, be sure to use versions 7.0.1-1 or 6.9.3-10 or higher
+
 Configuring Paperclip and S3 was more of a hassle a couple months ago, but things have gotten easier since the latest versions of the Paperclip gem are now compatible with the `aws-sdk` gem above versions 2.0. Nevertheless, I'll go through the steps of getting it all set up on Rails 4. The project I was working through while putting this tutorial together is [here](https://github.com/jbrr/photo-portfolio), to see all this in action.
 
 First, we're going to need a couple of gems.
