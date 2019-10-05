@@ -48,11 +48,11 @@
   job_title: Contract Junior Software Engineer
   dates: June 2016 - April 2017
   description: |
-    I was hired on a 3 week contract as a junior developer to help internationalize a <mark>Rails</mark> application for an upcoming launch in Italy.
+    I was hired on a 3-week contract as a junior developer to help internationalize a <mark>Rails</mark> application for an upcoming launch in Italy.
     It runs on a <mark>PostgreSQL</mark> database with a <mark>JQuery</mark> and <mark>Highcharts</mark> frontend. It's a legacy application at this point,
-    running on Ruby 1.9.3 and Rails 3, which presented it's own challenges.
+    running on Ruby 1.9.3 and Rails 3, which presented its own challenges.
     After winning a hot dog eating contest or something, they decided to extend that contract, and I ended up working on a team dedicated to that Rails application.
-    This being my first full time position out of Turing, I was just constantly learning about everything from looking through Rails sourcecode to debug an issue,
+    This being my first full time position out of Turing, I was just constantly learning about everything from looking through Rails source code to debug an issue,
     to professional workflow, agile development, and git. Things were so simple then, just us and a Rails app.
 
 - layout: left
@@ -61,7 +61,7 @@
   job_title: Contract Junior Software Engineer
   dates: March 2016 - June 2016
   description: |
-    At MotoTV, I worked as a part time contractor doing some miscellaneous <mark>JavaScript</mark> and <mark>PHP/Laravel</mark> work on an application
+    At MotoTV, I worked as a part-time contractor doing some miscellaneous <mark>JavaScript</mark> and <mark>PHP/Laravel</mark> work on an application
     that displayed digital billboards/menus in extreme sports shops. Some of this involved researching APIs for snow reports and surf conditions.
     I ended up not staying long after being offered a full time contract. While I was extremely grateful for the opportunity, the company was very
     small, and it was just me and one other senior engineer, who was remote. It wasn't ideal conditions for a junior developer, especially when it involved
@@ -73,6 +73,6 @@
   job_title: Student Support Fellow
   dates: February 2016 - March 2016
   description: |
-    I was extremely honored when I was offered a position working part time at Turing after I graduated. This was a new role, and from what I understand,
+    I was extremely honored when I was offered a position working part-time at Turing after I graduated. This was a new role, and from what I understand,
     it still exists now. The staff offers one graduating student per cohort this fellowship, which involves being a in house help desk for students who are struggling with some concepts,
     or just want to ask a quick question, or want to talk about the job hunt, or even just the stresses of being at Turing. The fellowship lasted one module (or six weeks).

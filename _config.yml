@@ -31,7 +31,7 @@ about_content: | # this will include new lines to allow paragraphs
 
   I'm a software engineer living in Denver, Colorado with my fiancée and our adorable corgi, [Uzi](/images/uzi.jpg). They're just the absolute best.
   I'm a full stack developer ready to learn whatever stack is thrown at me. I'm strongest in <mark>Ruby</mark>, <mark>Ruby on Rails</mark>, and <mark>Python</mark>.
-  I'm able to make my way around most JavaScript frontends, and have worked with <mark>JQuery</mark>, <mark>React</mark>, and <mark>Vue.js</mark>.
+  As far as the frontend is concerned, I've worked with <mark>JQuery</mark>, <mark>React</mark>, and <mark>Vue.js</mark>.
   From a database perspective, I'm most comfortable with <mark>PostgreSQL</mark>, but have worked with <mark>DynamoDB</mark> in the past, and I have extensive
   experience with many different services in <mark>AWS</mark>.
 
