@@ -1,0 +1,21 @@
+- layout: top-middle
+  name: Mosquito Heatmap
+  link: TBD
+  github: jbrr/mosquito_heat_map
+  quote: >
+    Mosquitos are scary!
+  description: | # this will include new lines to allow paragraphs
+    This is a side project I've been working on lately to better learn <mark>React</mark>, as well as <mark>Flask</mark>.
+    The project ingests data from the National Ecological Observatory Network (NEON), and maps out mosquitos density by genus across the US for now.
+    The server is a Python/Flask/PostgreSQL/PostGIS stack. The client uses a React/Leaflet.js stack.
+
+- layout: top-middle
+  name: Ski Free
+  link: jbrr.github.io/ski-free
+  github: jbrr/ski-free
+  quote: >
+    Watch out for the Yeti!
+  description: |
+    This is a very old project, but one that I'm still proud of. A classmate and I built an <mark>HTML5 canvas</mark> version of the classic
+    Windows game Ski Free. I have fond memories of this project, especially brushing up on trigonometry to determine the path the Yeti
+    should take to attack the skier.

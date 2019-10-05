@@ -1,0 +1,78 @@
+- layout: left
+  company: Uplight
+  link: uplight.com
+  job_title: Software Engineer
+  dates: July 2019 - Present
+  quote: >
+   The new leader in delivering a modern customer energy experience and accelerating the clean energy ecosystem.
+  description: | # this will include new lines to allow paragraphs
+    Tendril merged with Simple Energy in July 2019 and formed a new company, Uplight. I'm continuing to work on onboarding new clients,
+    and improving our processes to do so.
+
+- layout: left
+  company: Tendril, Inc
+  link: tendrilinc.com
+  job_title: Software Engineer
+  dates: April 2017 - July 2019
+  quote: >
+    Changing the way the world uses energy.
+  description: |
+    After being a full time contractor for about 9 months, I accepted a full time position at Tendril.
+    I was initially on the Customer Engineering team, where we handled customer feature requests and bug reports.
+    Along with the help of some great coworkers, this role taught me how to get ramped up quickly on new codebases and technologies.
+    I learned here a little bit about <mark>Java</mark>, <mark>Scala</mark>, <mark>Python</mark>, <mark>Apache Mesos/Marathon</mark>,
+    and continued strengthening my skills around <mark>Ruby</mark> and <mark>Rails</mark>.
+    Around this time Tendril started transitioning all services to <mark>AWS</mark>,
+    so I started picking that up as well.
+    I also started taking responsibility for configuring SSO for our <mark>Rails</mark> application using <mark>SAML</mark>.
+
+    After some internal shuffling, I was put on a new team that worked on a customer facing application
+    that allows users to discover how their home uses energy, and offered tips on saving energy (demo site available upon request).
+    This application was built with <mark>Python</mark>, <mark>Vue.js</mark>, <mark>SAML</mark> (via <mark>Auth0</mark>),
+    <mark>AWS DynamoDB</mark>, <mark>AWS Lambda</mark>, and <mark>AWS API Gateway</mark>.
+
+    We brought that application up to speed, and our small team was moved over to onboarding new clients.
+    This involves touching all aspects of our services, starting from ingesting utility data into our system,
+    all the way to designing templates for mass paper mailers using <mark>React</mark>.
+    I've become comfortable with <mark>Event Driven Architecture</mark> on this team, as well as many aspects of <mark>ETL</mark>.
+    Our first priority was standardizing the way we ingest data into our platform. I had some incredibly sharp coworkers,
+    and while I can't take credit for being the principle architect of the new platform,
+    I participated in design sessions and many spikes to figure out the best way to do it.
+    We ended up with a new <mark>ETL</mark> pipeline built using many <mark>AWS</mark> services,
+    including <mark>Glue</mark>, <mark>Lambda</mark>, <mark>Batch</mark>, and <mark>ECS</mark>.
+    In this role, I've become much more comfortable with <mark>Python</mark> and <mark>SQL</mark>.
+
+- layout: left
+  company: Tendril, Inc.
+  link: tendrilinc.com
+  job_title: Contract Junior Software Engineer
+  dates: June 2016 - April 2017
+  description: |
+    I was hired on a 3 week contract as a junior developer to help internationalize a <mark>Rails</mark> application for an upcoming launch in Italy.
+    It runs on a <mark>PostgreSQL</mark> database with a <mark>JQuery</mark> and <mark>Highcharts</mark> frontend. It's a legacy application at this point,
+    running on Ruby 1.9.3 and Rails 3, which presented it's own challenges.
+    After winning a hot dog eating contest or something, they decided to extend that contract, and I ended up working on a team dedicated to that Rails application.
+    This being my first full time position out of Turing, I was just constantly learning about everything from looking through Rails sourcecode to debug an issue,
+    to professional workflow, agile development, and git. Things were so simple then, just us and a Rails app.
+
+- layout: left
+  company: MotoTV
+  link: mototvnetwork.com
+  job_title: Contract Junior Software Engineer
+  dates: March 2016 - June 2016
+  description: |
+    At MotoTV, I worked as a part time contractor doing some miscellaneous <mark>JavaScript</mark> and <mark>PHP/Laravel</mark> work on an application
+    that displayed digital billboards/menus in extreme sports shops. Some of this involved researching APIs for snow reports and surf conditions.
+    I ended up not staying long after being offered a full time contract. While I was extremely grateful for the opportunity, the company was very
+    small, and it was just me and one other senior engineer, who was remote. It wasn't ideal conditions for a junior developer, especially when it involved
+    picking up a new language.
+
+- layout: left
+  company: Turing School of Software and Design
+  link: turing.io
+  job_title: Student Support Fellow
+  dates: February 2016 - March 2016
+  description: |
+    I was extremely honored when I was offered a position working part time at Turing after I graduated. This was a new role, and from what I understand,
+    it still exists now. The staff offers one graduating student per cohort this fellowship, which involves being a in house help desk for students who are struggling with some concepts,
+    or just want to ask a quick question, or want to talk about the job hunt, or even just the stresses of being at Turing. The fellowship lasted one module (or six weeks).

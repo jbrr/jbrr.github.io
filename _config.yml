@@ -1,0 +1,69 @@
+# Site
+repository: jbrr/jbrr.github.io
+# favicon: images/favicon.ico
+
+# Personal info
+name: Jeff Ruane
+title: Software Engineer
+email: jeff@jbrr.io
+# website: jbrr.github.io
+
+# Social links
+twitter_username: jefbrr
+github_username:  jbrr
+# dribbble_username: jekyll
+# facebook_username: jekyll
+flickr_username: eioua
+# instagram_username: chillwildlife
+linkedin_username: jeffruane
+# pinterest_username: jekyll
+# youtube_username: globalmtb
+# googleplus_username: +jekyll
+keybase_username: jbrr
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Ever found yourself without enough Jeffs around?
+  Of course you have, we've all been there. Be Jeffless no more!
+  Have I got a Jeff for you!
+
+  I'm a software engineer living in Denver, Colorado with my fiancée and our adorable corgi, [Uzi](/images/uzi.jpg). They're just the absolute best.
+  I'm a full stack developer ready to learn whatever stack is thrown at me. I'm strongest in <mark>Ruby</mark>, <mark>Ruby on Rails</mark>, and <mark>Python</mark>.
+  I'm able to make my way around most JavaScript frontends, and have worked with <mark>JQuery</mark>, <mark>React</mark>, and <mark>Vue.js</mark>.
+  From a database perspective, I'm most comfortable with <mark>PostgreSQL</mark>, but have worked with <mark>DynamoDB</mark> in the past, and I have extensive
+  experience with many different services in <mark>AWS</mark>.
+
+  <mark>Hotdog guru</mark>
+
+# Projects Section
+# projects_title: Projects
+
+# Experience Section
+# experience_title: Experience
+
+# Education Section
+# educaton_title: Education
+
+# More Section
+# more_title: A Little More About Me
+more_content: | # this will include new lines to allow paragraphs
+  I'm not just a software engineer! I also have extensive experience with:
+   - Rock n roll
+   - Dive bars
+   - Camping
+   - Photography (Alright, extensive experience might be a bit much, but I like piddling around with my camera in the mountains!)
+
+# Footer
+footer_show_references: true
+
+# Build settings
+remote_theme: jbrr/cv
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
