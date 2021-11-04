@@ -1,6 +1,6 @@
 ---
 date: 2021-11-04T05:56:44.000-06:00
-layout: posts
+layout: single
 title: '2021: The year that was inexplicably worse than the last'
 categories:
 - wellness
