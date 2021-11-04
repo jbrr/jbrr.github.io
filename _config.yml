@@ -38,7 +38,10 @@ author:
   email: jeff@jbrr.dev
   twitter: jefbrr
   github: jbrr
-  keybase: jbrr
+  links:
+    - label: Keybase
+      icon: "fab fa-fw fa-keybase"
+      url: "https://keybase.io/jbrr"
 
 # Build settings
 # theme: minimal-mistakes-jekyll
