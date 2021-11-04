@@ -32,18 +32,13 @@ locale: en-US
 author:
   name: Jeff Ruane
   avatar: "/assets/images/me.jpg"
-  bio: "yo yo yo"
+  bio: >-
+    Pretty much fine software engineer, although I'm more concerned with being a good person than programming.
   location: Denver, CO
-  links:
-  - label: Email
-    icon: fas fa-fw fa-envelope-square
-    url: mailto:jeff@jbrr.dev
-  - label: Twitter
-    icon: fab fa-fw fa-twitter-square
-    url: https://twitter.com/jefbrr
-  - label: Keybase
-    icon: fab fa-fw fa-keybase
-    url: https://keybase.io/jbrr
+  email: jeff@jbrr.dev
+  twitter: jefbrr
+  github: jbrr
+  keybase: jbrr
 
 # Build settings
 # theme: minimal-mistakes-jekyll

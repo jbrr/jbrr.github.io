@@ -1,0 +1,14 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@charset "utf-8";
+
+$background-color: #353535 !default;
+$text-color: #FFFFFF !default;
+$footer-background-color: #8A897C !default;
+$link-color: #BDBBB0 !default;
+$muted-text-color: #BDBBB0 !default;
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
