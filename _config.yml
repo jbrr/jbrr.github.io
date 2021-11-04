@@ -51,6 +51,12 @@ plugins:
   - jekyll-remote-theme
   - jekyll-include-cache
 
+comments:
+  provider  : staticman_v2
+  staticman:
+    branch    : main
+    endpoint  : https://jbrr-staticman.herokuapp.com/v3/entry/github/
+
 defaults:
   # _posts
   - scope:
@@ -62,8 +68,8 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
-      share: true
+      comments: false
+      share: false
       related: true
 
 # Exclude from processing.
