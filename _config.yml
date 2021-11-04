@@ -63,9 +63,11 @@ comments:
 category_archive:
   type: jekyll-archives
   path: /categories/
+
 tag_archive:
   type: jekyll-archives
   path: /tags/
+
 jekyll-archives:
   enabled:
     - categories
@@ -91,6 +93,9 @@ defaults:
       comments: false
       share: false
       related: false
+
+include:
+  - _pages
 
 # Exclude from processing.
 # The following items will not be processed, by default.
