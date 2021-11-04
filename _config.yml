@@ -24,8 +24,8 @@ email: jeff@jbrr.dev
 name: Jeff Ruane
 description: >- # this means to ignore newlines until "baseurl:"
   Software engineer, just trying my best
-url: "https://jbrr.dev" # the base hostname & protocol for your site, e.g. http://example.com
-repository: "jbrr/jbrr.github.io"
+url: https://jbrr.dev # the base hostname & protocol for your site, e.g. http://example.com
+repository: jbrr/jbrr.github.io
 twitter_username: jefbrr
 github_username:  jbrr
 locale: en-US
@@ -44,12 +44,15 @@ author:
     url: https://twitter.com/jefbrr
 
 # Build settings
-theme: minimal-mistakes-jekyll
+# theme: minimal-mistakes-jekyll
+remote_theme: mmistakes/minimal-mistakes
 minimal_mistakes_skin: dirt
 
 plugins:
   - jekyll-feed
   - jekyll-archives
+  - jekyll-remote-theme
+  - jekyll-include-cache
 
 defaults:
   # _posts
