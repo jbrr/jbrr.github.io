@@ -70,7 +70,7 @@ defaults:
       read_time: true
       comments: false
       share: false
-      related: true
+      related: false
 
 # Exclude from processing.
 # The following items will not be processed, by default.
