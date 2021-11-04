@@ -4,7 +4,9 @@ layout: single
 title: '2021: The year that was inexplicably worse than the last'
 categories:
 - wellness
-tags: []
+tags:
+- mental health
+- covid
 
 ---
 2020 was awful in a loud, bombastic way that (almost) everyone could agree on. There was a certain comfort in the idea that as terrible as it was, we were all in it together. 2021 has been awful in a much more insidious, isolated way, where everyone seems to feel like they're suffering alone.
