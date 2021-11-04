@@ -24,7 +24,7 @@ email: jeff@jbrr.dev
 name: Jeff Ruane
 description: >- # this means to ignore newlines until "baseurl:"
   Software engineer, just trying my best
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://jbrr.dev" # the base hostname & protocol for your site, e.g. http://example.com
 repository: "jbrr/jbrr.github.io"
 twitter_username: jefbrr
@@ -50,6 +50,7 @@ minimal_mistakes_skin: dirt
 
 plugins:
   - jekyll-feed
+  - jekyll-archives
 
 defaults:
   # _posts
