@@ -11,6 +11,9 @@ fields:
 - type: datetime
   name: date
   label: date
+  default: now
+  config:
+    date_format: MM/DD/YYYY
 - type: text
   name: categories
   label: categories
