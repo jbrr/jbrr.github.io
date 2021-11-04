@@ -4,18 +4,24 @@ hide_body: false
 fields:
 - type: text
   name: layout
-  label: layout
+  label: Layout
+  default: posts
 - type: text
   name: title
-  label: title
+  label: Title
 - type: datetime
   name: date
-  label: date
+  label: Date
   default: now
   config:
     date_format: MM/DD/YYYY
-- type: text
-  name: categories
-  label: categories
+- name: categories
+  type: tag_list
+  default: []
+  label: Categories
+- name: tags
+  type: tag_list
+  default: []
+  label: Tags
 pages:
 - _posts/2021-the-year-that-was-inexplicably-worse-than-the-last.md
