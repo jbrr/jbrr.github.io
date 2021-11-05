@@ -52,6 +52,7 @@ plugins:
   - jekyll-feed
   - jekyll-remote-theme
   - jekyll-include-cache
+  - jekyll-menus
 
 comments:
   provider  : staticman_v2
