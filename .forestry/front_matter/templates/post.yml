@@ -23,5 +23,3 @@ fields:
   type: tag_list
   default: []
   label: Tags
-pages:
-- _posts/2021-11-04-2021-the-year-that-was-inexplicably-worse-than-the-last.md
