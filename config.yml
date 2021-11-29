@@ -3,7 +3,6 @@ languageCode: en-us
 title: The Cat Killed Curiousity
 theme: "PaperMod"
 paginate: 5
-publishDir: docs
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
