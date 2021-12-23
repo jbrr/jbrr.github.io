@@ -1,6 +1,6 @@
 ---
 title: "2021: The year that was inexplicably worse than the last"
-date: 2021-11-29T02:58:59-07:00
+date: 2021-11-04T02:58:59-07:00
 draft: false
 ---
 
