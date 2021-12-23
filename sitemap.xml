@@ -2,20 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://jbrr.dev/posts/20211104/</loc>
-    <lastmod>2021-11-29T02:58:59-07:00</lastmod>
+    <loc>https://jbrr.dev/posts/2021-11-04-2021-the-year-that-was-inexplicably-worse-than-the-last/</loc>
+    <lastmod>2021-11-04T02:58:59-07:00</lastmod>
   </url><url>
     <loc>https://jbrr.dev/posts/</loc>
-    <lastmod>2021-11-29T02:58:59-07:00</lastmod>
+    <lastmod>2021-11-04T02:58:59-07:00</lastmod>
   </url><url>
     <loc>https://jbrr.dev/</loc>
-    <lastmod>2021-11-29T02:58:59-07:00</lastmod>
+    <lastmod>2021-11-04T02:58:59-07:00</lastmod>
   </url><url>
     <loc>https://jbrr.dev/about/</loc>
   </url><url>
     <loc>https://jbrr.dev/archives/</loc>
   </url><url>
+    <loc>https://jbrr.dev/tags/career/</loc>
+  </url><url>
     <loc>https://jbrr.dev/categories/</loc>
+  </url><url>
+    <loc>https://jbrr.dev/tags/engineering/</loc>
+  </url><url>
+    <loc>https://jbrr.dev/posts/2021-12-23-new-beginnings/</loc>
   </url><url>
     <loc>https://jbrr.dev/series/</loc>
   </url><url>
