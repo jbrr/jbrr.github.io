@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>career on The Cat Killed Curiousity</title>
-    <link>https://jbrr.dev/tags/career/</link>
-    <description>Recent content in career on The Cat Killed Curiousity</description>
+    <title>leadership on The Cat Killed Curiousity</title>
+    <link>https://jbrr.dev/tags/leadership/</link>
+    <description>Recent content in leadership on The Cat Killed Curiousity</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 24 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://jbrr.dev/tags/career/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 24 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://jbrr.dev/tags/leadership/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Thoughts on &#34;Operations&#34; by Andrew Bosworth</title>
       <link>https://jbrr.dev/posts/2021-12-24-a-reaction-to-andrew-bosworth/</link>
@@ -14,15 +14,6 @@
       
       <guid>https://jbrr.dev/posts/2021-12-24-a-reaction-to-andrew-bosworth/</guid>
       <description>A reaction to a interesting article about how teams work well together</description>
-    </item>
-    
-    <item>
-      <title>New beginnings</title>
-      <link>https://jbrr.dev/posts/2021-12-23-new-beginnings/</link>
-      <pubDate>Thu, 23 Dec 2021 00:15:00 -0700</pubDate>
-      
-      <guid>https://jbrr.dev/posts/2021-12-23-new-beginnings/</guid>
-      <description>A start at documenting getting the hang of a new job</description>
     </item>
     
   </channel>
