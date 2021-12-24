@@ -13,3 +13,5 @@ Branding:
 [linkedin](https://linkedin.com/in/jeffruane)
 
 [github](https://github.com/jbrr)
+
+[email](mailto:yo@jbrr.dev)
