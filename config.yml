@@ -24,8 +24,8 @@ menu:
         - name: Archive
           url: archives
           weight: 5
-        # - name: Search
-        #   url: search/
+        - name: Search
+          url: search/
         #   weight: 10
         # - name: Tags
         #   url: tags/
@@ -45,6 +45,7 @@ params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
     description: "Hotdog guru"
     author: Jeff Ruane
+    images: /tckc_dark_retouched.png
     schema:
         publisherType: Person
         sameAs: ["https://keybase.io/jbrr", "https://twitter.com/jefbrr"]
