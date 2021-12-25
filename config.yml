@@ -45,7 +45,7 @@ params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
     description: "Hotdog guru"
     author: Jeff Ruane
-    images: /tckc_dark_retouched.png
+    images: [/tckc_dark_retouched.png]
     schema:
         publisherType: Person
         sameAs: ["https://keybase.io/jbrr", "https://twitter.com/jefbrr"]
