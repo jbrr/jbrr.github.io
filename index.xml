@@ -4,6 +4,10 @@
     <title>The Cat Killed Curiousity</title>
     <link>https://jbrr.dev/</link>
     <description>Recent content on The Cat Killed Curiousity</description>
+    <image>
+      <url>https://jbrr.dev/47</url>
+      <link>https://jbrr.dev/47</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 24 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://jbrr.dev/index.xml" rel="self" type="application/rss+xml" />
@@ -43,6 +47,7 @@ I&amp;rsquo;ve had a shit year. Like a really, truly, awful year. The isolation 
       <guid>https://jbrr.dev/about/</guid>
       <description>about</description>
     </item>
+    
     
     
   </channel>
