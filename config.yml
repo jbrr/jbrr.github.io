@@ -1,6 +1,6 @@
 baseURL: https://jbrr.dev/
 languageCode: en-us
-title: The Cat Killed Curiousity
+title: Jeff Ruane
 theme: "PaperMod"
 paginate: 5
 
@@ -45,7 +45,7 @@ params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
     description: "Hotdog guru"
     author: Jeff Ruane
-    images: [/tckc_dark_retouched.png]
+    images: [/jbrr.jpg]
     schema:
         publisherType: Person
         sameAs: ["https://keybase.io/jbrr", "https://twitter.com/jefbrr"]
